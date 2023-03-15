@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18904CC329C1C2DB0072F27D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18904CC229C1C2DB0072F27D /* LocationManager.swift */; };
 		18B3474729B9FEDF001EC17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3474629B9FEDF001EC17F /* AppDelegate.swift */; };
-		18B3474929B9FEDF001EC17F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3474829B9FEDF001EC17F /* SceneDelegate.swift */; };
 		18B3474B29B9FEDF001EC17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3474A29B9FEDF001EC17F /* ViewController.swift */; };
 		18B3474E29B9FEDF001EC17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B3474C29B9FEDF001EC17F /* Main.storyboard */; };
 		18B3475029B9FEE3001EC17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B3474F29B9FEE3001EC17F /* Assets.xcassets */; };
 		18B3475329B9FEE3001EC17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B3475129B9FEE3001EC17F /* LaunchScreen.storyboard */; };
+		18B3D3E529BAF18C00CE389B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D3E429BAF18C00CE389B /* MapViewModel.swift */; };
+		18B3D3E829BAF1F300CE389B /* GoogleAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D3E729BAF1F300CE389B /* GoogleAPIManager.swift */; };
+		18D3EFE229BB080300807F5D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3EFE129BB080300807F5D /* NetworkManager.swift */; };
+		18D3EFE529BB342300807F5D /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3EFE429BB342300807F5D /* Restaurants.swift */; };
+		50933FA4C36B20684D8ABE14 /* Pods_GMapsLoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC207D2B433E551721223D1 /* Pods_GMapsLoc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18904CC229C1C2DB0072F27D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		18B3474329B9FEDF001EC17F /* GMapsLoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMapsLoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3474629B9FEDF001EC17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18B3474829B9FEDF001EC17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18B3474A29B9FEDF001EC17F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B3474D29B9FEDF001EC17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B3474F29B9FEE3001EC17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B3475229B9FEE3001EC17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B3475429B9FEE3001EC17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B3D3E429BAF18C00CE389B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		18B3D3E729BAF1F300CE389B /* GoogleAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPIManager.swift; sourceTree = "<group>"; };
+		18D3EFE129BB080300807F5D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18D3EFE429BB342300807F5D /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		32F99B3073BEEBC6F43719A9 /* Pods-GMapsLoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMapsLoc.release.xcconfig"; path = "Target Support Files/Pods-GMapsLoc/Pods-GMapsLoc.release.xcconfig"; sourceTree = "<group>"; };
+		B4D6CB23F3E90A2DDF764A1A /* Pods-GMapsLoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMapsLoc.debug.xcconfig"; path = "Target Support Files/Pods-GMapsLoc/Pods-GMapsLoc.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC207D2B433E551721223D1 /* Pods_GMapsLoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMapsLoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50933FA4C36B20684D8ABE14 /* Pods_GMapsLoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				18B3474529B9FEDF001EC17F /* GMapsLoc */,
 				18B3474429B9FEDF001EC17F /* Products */,
+				EFDCED666BED2D6831F811AF /* Pods */,
+				E626CB46B48DE8A4FF304EDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,68 @@
 		18B3474529B9FEDF001EC17F /* GMapsLoc */ = {
 			isa = PBXGroup;
 			children = (
+				18D3EFE329BB341100807F5D /* Model */,
+				18B3D3E629BAF1E200CE389B /* Manager */,
+				18B3D3E329BAF17400CE389B /* ViewModel */,
+				18B3D3E229BAF16500CE389B /* View */,
 				18B3474629B9FEDF001EC17F /* AppDelegate.swift */,
-				18B3474829B9FEDF001EC17F /* SceneDelegate.swift */,
-				18B3474A29B9FEDF001EC17F /* ViewController.swift */,
 				18B3474C29B9FEDF001EC17F /* Main.storyboard */,
 				18B3474F29B9FEE3001EC17F /* Assets.xcassets */,
 				18B3475129B9FEE3001EC17F /* LaunchScreen.storyboard */,
 				18B3475429B9FEE3001EC17F /* Info.plist */,
 			);
 			path = GMapsLoc;
+			sourceTree = "<group>";
+		};
+		18B3D3E229BAF16500CE389B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B3474A29B9FEDF001EC17F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B3D3E329BAF17400CE389B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B3D3E429BAF18C00CE389B /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B3D3E629BAF1E200CE389B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18B3D3E729BAF1F300CE389B /* GoogleAPIManager.swift */,
+				18D3EFE129BB080300807F5D /* NetworkManager.swift */,
+				18904CC229C1C2DB0072F27D /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		18D3EFE329BB341100807F5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D3EFE429BB342300807F5D /* Restaurants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E626CB46B48DE8A4FF304EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBC207D2B433E551721223D1 /* Pods_GMapsLoc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDCED666BED2D6831F811AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D6CB23F3E90A2DDF764A1A /* Pods-GMapsLoc.debug.xcconfig */,
+				32F99B3073BEEBC6F43719A9 /* Pods-GMapsLoc.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B3475729B9FEE3001EC17F /* Build configuration list for PBXNativeTarget "GMapsLoc" */;
 			buildPhases = (
+				4A4D555E7452ECC4066B047C /* [CP] Check Pods Manifest.lock */,
 				18B3473F29B9FEDF001EC17F /* Sources */,
 				18B3474029B9FEDF001EC17F /* Frameworks */,
 				18B3474129B9FEDF001EC17F /* Resources */,
+				9FA01817A02D09F0A5FF3268 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +203,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A4D555E7452ECC4066B047C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMapsLoc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA01817A02D09F0A5FF3268 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMapsLoc/Pods-GMapsLoc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMapsLoc/Pods-GMapsLoc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMapsLoc/Pods-GMapsLoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18B3473F29B9FEDF001EC17F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +252,11 @@
 			files = (
 				18B3474B29B9FEDF001EC17F /* ViewController.swift in Sources */,
 				18B3474729B9FEDF001EC17F /* AppDelegate.swift in Sources */,
-				18B3474929B9FEDF001EC17F /* SceneDelegate.swift in Sources */,
+				18D3EFE229BB080300807F5D /* NetworkManager.swift in Sources */,
+				18904CC329C1C2DB0072F27D /* LocationManager.swift in Sources */,
+				18B3D3E529BAF18C00CE389B /* MapViewModel.swift in Sources */,
+				18D3EFE529BB342300807F5D /* Restaurants.swift in Sources */,
+				18B3D3E829BAF1F300CE389B /* GoogleAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +398,14 @@
 		};
 		18B3475829B9FEE3001EC17F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D6CB23F3E90A2DDF764A1A /* Pods-GMapsLoc.debug.xcconfig */;
 			buildSettings = {
+				API_KEY = "AIzaSyBKPv89NXbA0q9R8eBhR4UY-2tu0S9rSmM";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q42VQF5KW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GMapsLoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +428,14 @@
 		};
 		18B3475929B9FEE3001EC17F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F99B3073BEEBC6F43719A9 /* Pods-GMapsLoc.release.xcconfig */;
 			buildSettings = {
+				API_KEY = "AIzaSyBKPv89NXbA0q9R8eBhR4UY-2tu0S9rSmM";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q42VQF5KW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GMapsLoc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
